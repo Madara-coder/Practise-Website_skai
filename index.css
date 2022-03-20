@@ -1,0 +1,743 @@
+/* This is the css file which is linked with the website "skai" made by Mr.Debrath Sharma */
+
+* {
+    top: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* SCROLL BAR AREA */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #708ad4 0%, #222222 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(180deg, #7fa0fb 0%, #111428 99%);
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* NAVIGATION AREA  */
+
+.navigation-main {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+
+/* The logo area */
+
+.logo_main {
+    height: 45px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+/* The navigation elements section */
+
+.nav-elements {
+    width: 55vw;
+}
+
+.nav-el {
+    margin: 0 20px;
+    padding: 50px;
+    color: #111428;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-el .ele {
+    cursor: pointer;
+}
+
+.nav-el .ele:hover {
+    color: #406ef1;
+}
+
+
+/* The button section  */
+
+.book-meeting {
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: 300;
+    border: 1px solid #406ef1;
+    padding: 11px 35px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #406ef1;
+    color: white;
+    transition: 0.5s ease 0s;
+}
+
+.book-meeting:hover {
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    transition: 0.5s ease 0s;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* FIRST BANNER AREA */
+
+.banner-main {
+    margin-top: 10vh;
+    height: 80vh;
+    width: 100%;
+    background: url(./pic/main1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.left-section {
+    position: relative;
+    top: 14%;
+    left: 12.75%;
+}
+
+.first-header {
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: min(max(6vw, 36px), 110px);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    color: #111428;
+}
+
+.first-paragraph {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: #111428;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+}
+
+.second-paragraph-area {
+    width: 15.5%;
+    display: flex;
+    cursor: pointer;
+}
+
+.second-paragraph {
+    margin-top: 5px;
+}
+
+.second-paragraph a {
+    text-decoration: none;
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: #111428;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.down-button {
+    margin-left: 30px;
+    cursor: pointer;
+    transform: rotate(-90deg);
+    transition: 0.2s ease-in-out;
+}
+
+.second-paragraph-area:hover .second-a {
+    color: #406ef1;
+    transition: 00.2s ease-in-out;
+}
+
+.second-paragraph-area:hover .down-button {
+    margin-left: 30px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: 0.2s ease-in-out;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* SECOND BANNER AREA */
+
+.secondbanner-main {
+    position: relative;
+    background-color: #111428;
+    height: 80.5vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* Left Section */
+
+.secondleft-section {
+    height: 80.5vh;
+    width: 60%;
+    color: white;
+    position: relative;
+    left: 12.75%;
+}
+
+.top-para {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #406ef1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    width: 360px;
+}
+
+.top-second-para {
+    font-size: 24px;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+    padding-top: 15px;
+}
+
+.first-head {
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: min(max(6vw, 36px), 110px);
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.middle-para {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+}
+
+
+/* The button area of the second banner  */
+
+.secondbanner-button {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 7px 50px;
+    background-color: #111428;
+    border: 1px solid #406ef1;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.secondbanner-button:hover {
+    background-color: #406ef1;
+    border: 1px solid #406ef1;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Right section */
+
+.secondright-section {
+    position: absolute;
+    left: 60%;
+    height: 80.5vh;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* THIRD BANNER AREA */
+
+.thirdbanner-main {
+    position: relative;
+    background-color: #e1e4e9;
+    height: 80.5vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* Left Section */
+
+.thirdleft-section1 {
+    height: 80.5vh;
+    width: 60%;
+    color: white;
+    position: relative;
+    left: 12.75%;
+}
+
+.top-para1 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #406ef1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    width: 360px;
+}
+
+.top-second-para1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+    padding-top: 15px;
+}
+
+.first-head1 {
+    color: black;
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: min(max(6vw, 36px), 110px);
+    letter-spacing: -0.04em;
+}
+
+.middle-para1 {
+    color: black;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+}
+
+
+/* The button area of the THIRD banner  */
+
+.thirdbanner-button {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 7px 50px;
+    background-color: #e1e4e9;
+    border: 1px solid #406ef1;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.thirdbanner-button:hover {
+    background-color: #406ef1;
+    border: 1px solid #406ef1;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Right section */
+
+.thirdright-section {
+    position: absolute;
+    left: 60%;
+    height: 80.5vh;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* FOURTH BANNER AREA */
+
+.fourthbanner-main {
+    position: relative;
+    background-color: #111428;
+    height: 80.5vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* Left Section */
+
+.fourthleft-section {
+    height: 80.5vh;
+    width: 60%;
+    color: white;
+    position: relative;
+    left: 12.75%;
+}
+
+.top-para2 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #406ef1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    width: 480px;
+}
+
+.top-second-para2 {
+    font-size: 24px;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+    padding-top: 15px;
+}
+
+.first-head2 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: min(max(6vw, 36px), 110px);
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.middle-para2 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+}
+
+
+/* The button area of the fourth banner  */
+
+.fourthbanner-button {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 7px 50px;
+    background-color: #111428;
+    border: 1px solid #406ef1;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.fourthbanner-button:hover {
+    background-color: #406ef1;
+    border: 1px solid #406ef1;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Right section */
+
+.fourthright-section {
+    position: absolute;
+    left: 60%;
+    height: 80.5vh;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* FIFTH BANNER AREA */
+
+.fifthbanner-main {
+    position: relative;
+    background-color: #bed1db;
+    height: 80.5vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* Left Section */
+
+.fifthleft-section3 {
+    height: 80.5vh;
+    width: 60%;
+    color: white;
+    position: relative;
+    left: 12.75%;
+}
+
+.top-para3 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #406ef1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    width: 330px;
+}
+
+.top-second-para3 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+    padding-top: 15px;
+}
+
+.first-head3 {
+    color: black;
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: min(max(6vw, 36px), 110px);
+    letter-spacing: -0.04em;
+}
+
+.middle-para3 {
+    color: black;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 50px 0 50px 0;
+}
+
+
+/* The button area of the THIRD banner  */
+
+.fifthbanner-button {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 7px 50px;
+    background-color: #bed1db;
+    border: 1px solid #406ef1;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.fifthbanner-button:hover {
+    background-color: #406ef1;
+    color: white;
+    border: 1px solid #406ef1;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Right section */
+
+.fifthright-section {
+    position: absolute;
+    left: 60%;
+    height: 80.5vh;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* SNOW MAN SECTION */
+
+.circle-man {
+    position: fixed;
+    top: 81%;
+    left: 95%;
+    background-color: #406ef1;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.circle-man:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*THE MAIN FOOTER AREA OF THE WEBSITE  */
+
+.main-footer {
+    height: 64vh;
+    width: 100%;
+    background-color: #111428;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+}
+
+
+/* Left Section */
+
+.left-area {
+    width: 38%;
+    height: 64vh;
+}
+
+.sub-left-division {
+    position: relative;
+    top: 18%;
+    left: 33%;
+}
+
+.footer-logo {
+    margin-bottom: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.icon-area {
+    margin-bottom: 20px;
+}
+
+.icon-area a {
+    padding: 4px;
+}
+
+.sentence {
+    color: white;
+}
+
+
+/* Icon design area for the svg */
+
+#facebook:hover {
+    transition: 0.2s ease-in-out;
+    fill: #3b5998;
+}
+
+#twitter:hover {
+    transition: 0.2s ease-in-out;
+    fill: #00acee;
+}
+
+#linkdn:hover {
+    transition: 0.2s ease-in-out;
+    fill: #3f729b;
+}
+
+#instagram:hover {
+    transition: 0.2s ease-in-out;
+    fill: #0077b5;
+}
+
+#youtube:hover {
+    transition: 0.2s ease-in-out;
+    fill: #ff0000;
+}
+
+
+/* Right section of the footer area */
+
+.right-area {
+    height: 64vh;
+    width: 62%;
+}
+
+.sub-division {
+    position: relative;
+    margin-top: 12%;
+    display: flex;
+}
+
+.column span {
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    color: #406ef1;
+}
+
+.column li {
+    margin: 10px 0 0 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+.column li:hover {
+    color: #406ef1;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* The footer area which is fixed in the website */
+
+.first-footer {
+    position: fixed;
+    top: 90%;
+    height: 10vh;
+    width: 100%;
+    background-color: #111428;
+    z-index: 100;
+}
+
+.footer-area {
+    position: relative;
+    top: 35%;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.learn-more {
+    color: white;
+    margin-left: 20px;
+}
+
+.learn-more:hover {
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

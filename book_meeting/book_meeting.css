@@ -1,0 +1,305 @@
+/* This is the css file which is linked with the website "skai" made by Mr.Debrath Sharma */
+
+* {
+    top: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* SCROLL BAR AREA */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #708ad4 0%, #222222 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(180deg, #7fa0fb 0%, #111428 99%);
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* NAVIGATION AREA  */
+
+.navigation-main {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+
+/* The logo area */
+
+.logo_main {
+    height: 45px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+/* The navigation elements section */
+
+.nav-elements {
+    width: 55vw;
+}
+
+.nav-el {
+    margin: 0 20px;
+    padding: 50px;
+    color: #111428;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-el .ele {
+    cursor: pointer;
+}
+
+.nav-el .ele:hover {
+    color: #406ef1;
+}
+
+
+/* The button section  */
+
+.book-meeting {
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: 300;
+    border: 1px solid #406ef1;
+    padding: 11px 35px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #406ef1;
+    color: white;
+    transition: 0.5s ease 0s;
+}
+
+.book-meeting:hover {
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    transition: 0.5s ease 0s;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* BANNER AREA OF THE BOOK MEETING HTML PAGE */
+
+.main-banner {
+    height: 120vh;
+    width: 100%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* SNOW MAN SECTION */
+
+.circle-man {
+    position: fixed;
+    top: 81%;
+    left: 95%;
+    background-color: #406ef1;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.circle-man:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*THE MAIN FOOTER AREA OF THE WEBSITE  */
+
+.main-footer {
+    height: 64vh;
+    width: 100%;
+    background-color: #111428;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+}
+
+
+/* Left Section */
+
+.left-area {
+    width: 38%;
+    height: 64vh;
+}
+
+.sub-left-division {
+    position: relative;
+    top: 18%;
+    left: 33%;
+}
+
+.footer-logo {
+    margin-bottom: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.icon-area {
+    margin-bottom: 20px;
+}
+
+.icon-area a {
+    padding: 4px;
+}
+
+.sentence {
+    color: white;
+}
+
+
+/* Icon design area for the svg */
+
+#facebook:hover {
+    transition: 0.2s ease-in-out;
+    fill: #3b5998;
+}
+
+#twitter:hover {
+    transition: 0.2s ease-in-out;
+    fill: #00acee;
+}
+
+#linkdn:hover {
+    transition: 0.2s ease-in-out;
+    fill: #3f729b;
+}
+
+#instagram:hover {
+    transition: 0.2s ease-in-out;
+    fill: #0077b5;
+}
+
+#youtube:hover {
+    transition: 0.2s ease-in-out;
+    fill: #ff0000;
+}
+
+
+/* Right section of the footer area */
+
+.right-area {
+    height: 64vh;
+    width: 62%;
+}
+
+.sub-division {
+    position: relative;
+    margin-top: 12%;
+    display: flex;
+}
+
+.column span {
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    color: #406ef1;
+}
+
+.column li {
+    margin: 10px 0 0 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+.column li:hover {
+    color: #406ef1;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* The footer area which is fixed in the website */
+
+.first-footer {
+    position: fixed;
+    top: 90%;
+    height: 10vh;
+    width: 100%;
+    background-color: #111428;
+    z-index: 100;
+}
+
+.footer-area {
+    position: relative;
+    top: 35%;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.learn-more {
+    color: white;
+    margin-left: 20px;
+}
+
+.learn-more:hover {
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
